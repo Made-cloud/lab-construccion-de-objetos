@@ -6,13 +6,13 @@ function Mail(subj, msg) {
     
   }
   
-  const newMail = new Mail(  )
+  const newMail = new Mail()
   
   // Type your code above this line!
   
   Mail.prototype.printMail = function() {
-      console.log(this.subject + ": " + this.message)
-      return this.subject + ": " + this.message;
+      console.log("<" + this.subject + ">: <" + this.message + ">")
+      return "<" + this.subject + ">: <" + this.message + ">";
   }
 
 // Type your code above this line!
