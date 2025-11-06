@@ -10,3 +10,5 @@ function Mail(subj, msg) {
   // Type your code above this line!
   
   console.log(newMail.subject + ": " + newMail.message)
+
+  //
